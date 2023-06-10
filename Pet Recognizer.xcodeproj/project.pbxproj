@@ -12,6 +12,7 @@
 		EDFE9EB622521BC7008AE763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFE9EB422521BC7008AE763 /* Main.storyboard */; };
 		EDFE9EB822521BC8008AE763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFE9EB722521BC8008AE763 /* Assets.xcassets */; };
 		EDFE9EBB22521BC8008AE763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFE9EB922521BC8008AE763 /* LaunchScreen.storyboard */; };
+		EDFE9EC322521C68008AE763 /* PetImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EDFE9EC222521C68008AE763 /* PetImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EDFE9EB722521BC8008AE763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDFE9EBA22521BC8008AE763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDFE9EBC22521BC8008AE763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFE9EC222521C68008AE763 /* PetImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PetImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				EDFE9EB722521BC8008AE763 /* Assets.xcassets */,
 				EDFE9EB922521BC8008AE763 /* LaunchScreen.storyboard */,
 				EDFE9EBC22521BC8008AE763 /* Info.plist */,
+				EDFE9EC222521C68008AE763 /* PetImageClassifier.mlmodel */,
 			);
 			path = "Pet Recognizer";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDFE9EC322521C68008AE763 /* PetImageClassifier.mlmodel in Sources */,
 				EDFE9EB322521BC7008AE763 /* ViewController.swift in Sources */,
 				EDFE9EB122521BC7008AE763 /* AppDelegate.swift in Sources */,
 			);
